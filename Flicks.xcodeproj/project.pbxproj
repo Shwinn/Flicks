@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		103B6E889FA6AE56738D224A /* Pods_Flicks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB0665108F27D3858117C39 /* Pods_Flicks.framework */; };
+		831C9F6C1E47EDA400821540 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831C9F6B1E47EDA400821540 /* DetailViewController.swift */; };
 		8329FD0E1E3ED3EB00CA7744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8329FD0D1E3ED3EB00CA7744 /* AppDelegate.swift */; };
 		8329FD131E3ED3EB00CA7744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8329FD111E3ED3EB00CA7744 /* Main.storyboard */; };
 		8329FD151E3ED3EB00CA7744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8329FD141E3ED3EB00CA7744 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		391FBAECCA5798C4FA5A3833 /* Pods-Flicks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.debug.xcconfig"; sourceTree = "<group>"; };
+		831C9F6B1E47EDA400821540 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8329FD0A1E3ED3EB00CA7744 /* Flicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8329FD0D1E3ED3EB00CA7744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8329FD121E3ED3EB00CA7744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				8329FD1F1E3EEB7600CA7744 /* MoviesViewController.swift */,
+				831C9F6B1E47EDA400821540 /* DetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				8329FD0E1E3ED3EB00CA7744 /* AppDelegate.swift in Sources */,
 				8329FD201E3EEB7600CA7744 /* MoviesViewController.swift in Sources */,
 				8329FD231E3EF5D100CA7744 /* MovieCell.swift in Sources */,
+				831C9F6C1E47EDA400821540 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 				8329FD1E1E3ED3EB00CA7744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
