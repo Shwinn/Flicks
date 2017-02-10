@@ -33,6 +33,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let overview = movie["overview"] as! String
         
         cell.overviewLabel.text = overview
+        cell.overviewLabel.sizeToFit()
         cell.titleLabel.text = title
         
         let baseUrl = "http://image.tmdb.org/t/p/w500"
@@ -41,6 +42,13 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             let imageUrl = URL(string: baseUrl + posterPath)
             cell.posterView.setImageWith(imageUrl!)
         }
+        
+        cell.selectionStyle = .none
+        
+        //let backgroundView = UIView()
+        //backgroundView.backgroundColor = UIColor.cyan
+        //cell.selectedBackgroundView = backgroundView
+        
 
         
         print(indexPath.row)
